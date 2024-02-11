@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 REQUIRED_PACKAGES = [
     'requests',
-    'h5py==3.7.0; python_version>="3.9"',
+    'h5py==3.10.0; python_version>="3.9"',
     'h5py==2.10.0; python_version<"3.9"'
 ]
 
@@ -44,6 +44,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
         'Topic :: Software Development',
